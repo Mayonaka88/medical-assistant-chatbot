@@ -1,0 +1,270 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "Good afternoon",
+        "Hello",
+        "Hi there",
+        "Hello there",
+        "Good day"
+      ],
+      "responses": [
+        "Hi! thanks for visiting! My name is Doc, your virtual medical assistant! How can I help you today?",
+        "Hi there! I'm Doc and I'm here to help! what can I do for you?",
+        "Hi there! My name is Doc and I'll be your virtual medical assistant today. How may I help?",
+        "Hello there! My name is Doc and I'll be your virtual medical assistant today. How can I help you today?",
+        "Hello there! I'm Doc and I'm here to help! what can I do for you?",
+        "Hello there! My name is Doc and I'll be assisting you today. How may I be of service?",
+        "Hi there! thanks for visiting! My name is Doc, your virtual medical assistant! How can I help you today?"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What's your name?",
+        "whats your name?",
+        "who are you?"
+      ],
+      "responses": [
+        "My name is Doc, your virtual medical assistant!",
+        "I'm Doc and I'm here to help!",
+        "My name is Doc and I'll be your virtual medical assistant today.",
+        "My name is Doc and I'll be assisting you today."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", 
+        "See you later", 
+        "Goodbye",
+        "Goodnight"
+      ],
+      "responses": [
+        "See you later, thanks for visiting!",
+        "Have a nice day!",
+        "Bye! Come back again soon!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", 
+        "Thank you", 
+        "That's helpful", 
+        "Thank's a lot!",
+        "Thx",
+        "No thank you",
+        "No thank you thats all",
+        "Thank you thats all"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "Happy to be of service!",
+        "Dont mention it! That's what Im here for!",
+        "Happy to help!",
+        "Helping you is always my pleasure!",
+        "If you need anything else, just let me know!",
+        "You're most welcome!"
+      ]
+    },
+    {
+      "tag": "State",
+      "patterns": [
+        "How are you?",
+        "How have you been?",
+        "Are you good?",
+        "Are you okay?",
+        "How are you feeling?"
+      ],
+      "responses": [
+        "I'm doing great! How can I help you?",
+        "I'm good! Thanks for asking! Now tell me how can I help you?",
+        "I'm doing just fine! How can I help you?",
+        "I'm doing great! How can I be of service to you?",
+        "I'm good! Thanks for asking! Now tell me How can I be of service to you?",
+        "I'm doing just fine! How can I be of service to you?"
+      ]
+    },
+    {
+      "tag": "Help",
+      "patterns": [
+        "Can you help me?",
+        "I need your help",
+        "I need your assistance",
+        "I need some help",
+        "I need some assistance"
+      ],
+      "responses": [
+        "Sure! I can help you! Just ask me about an illness you want to learn more about!",
+        "That's what I'm here for! How can I help you?",
+        "Sure! Just ask me about an illness!",
+        "That's what I'm here for! Just ask me about an illness!"
+      ]
+    },
+    {"tag": "corona",
+      "patterns": [
+        "what is corona?", 
+        "what is covid?", 
+        "what is covid19?",
+        "what is covid-19?",
+        "give me information about covid19",
+        "give me information about covid",
+        "give me information about corona",
+        "Tell me about covid",
+        "Tell me about corona",
+        "Tell me about covid-19",
+        "I want to know more about covid",
+        "I want to know more about corona",
+        "I want to know more about covid-19",
+        "I want to learn more about covid",
+        "I want to learn more about covid-19",
+        "I want to learn more about corona"
+      ],
+      "responses": ["Coronaviruses are a group of viruses that play a role in more severe illnesses including pneumonia and the common cold. It has the following signs: Fever, dry cough, tiredness, sore throat, loss of taste or smell, and can be treated with Vaccine. Is there anything else I can help you with?",
+      "Coronaviruses are a family of viruses that cause more serious illnesses such as pneumonia and the common cold. It has the following characteristics:  fever, dry cough, tiredness, sore throat, and loss of taste or smell. Remdesivir may be used to treat coronavirus. Is there anything else I can help you with?"
+      ]
+    },
+    {"tag": "Influenza",
+      "patterns": [
+        "what is influenza?", 
+        "what is the influenza?",
+        "what is the flu?", 
+        "give me information about influenza", 
+        "give me information about the flu", 
+        "Tell me about the flu",
+        "Tell me about influenza",
+        "I want to know more about the flu",
+        "I want to know more about influenza",
+        "I want to learn more about influenza",
+        "I want to learn more about the flu"
+      ],
+      "responses": [
+        "Influenza is an infectious disease caused by a virus that is can occur easily, the symptoms are: fever, sore throat, runny nose, cough and headaches. You can take Tamiflu. Is there anything else I can help you with?",
+        "Influenza is a bacterium viral disease caused by a virus that is can occur easily, the symptoms are: fever, sore throat, runny nose, cough and headaches. You can take Xofluza. Is there anything else I can help you with?"
+      ]
+    },
+    {"tag": "Rabies",
+      "patterns": [
+        "what is rabies?",  
+        "what is the rabies?",  
+        "give me information about rabies", 
+        "Tell me about rabies",
+        "I want to know more about rabies",
+        "I want to learn more about rabies"
+      ],
+      "responses": [
+        "Rabies is a lethal infection from the saliva of an animal, the symptoms are: fever, headaches, vomiting, excessive salvation and hyperactivity. You can take an injection shot. Is there anything else I can help you with?",
+        "Rabies is when you get bitten by a vicious animal, the symptoms are: fever, headaches, vomiting, excessive salvation and hyperactivity. You can take an injection shot. Is there anything else I can help you with?"
+      ]
+    },
+    {"tag": "Ebola",
+      "patterns": [
+        "what is ebola?", 
+        "give me information about ebola", 
+        "is ebola a virus?",
+        "Tell me about ebola",
+        "I want to know more about ebola",
+        "I want to learn more about ebola"
+      ],
+      "responses": ["Ebola is a haemorrhagic fever in humans and certain mammals, symptoms are: fever, weakness, vomiting, stomach pain and unexplained bleeding. You can take inmazeb. Is there anything else I can help you with?",
+      "Ebola is a serious matter and is sometimes lethal as it is a fever that is unexplained, symptoms are: fever, weakness, vomiting, stomach pain and unexplained bleeding. You can take inmazeb(injection). Is there anything else I can help you with?"
+      ]
+    },
+    {"tag": "Hepatitis",
+      "patterns": [
+        "what is hepatitis?",
+        "give me information about hepatitis", 
+        "Tell me about hepatitis",
+        "I want to know more about hepatitis",
+        "I want to learn more about hepatitis"
+      ],
+      "responses": ["Hepatitis is contracting a disease that permanently scars the liver, such as liver failure, liver cancer or cirrhosis, the symptoms are: abdominal pain, weakness, fever, yellowing of your skin and the whites of your eyes and loss of appetite. You can take baraclude. Is there anything else I can help you with?",
+      "Hepatitis is a condition that causes permanent scarring of the liver, such as liver damage, cancer, or cirrhosis, the symptoms are: abdominal pain, weakness, fever, yellowing of your skin and the whites of your eyes and loss of appetite. You can take Viread. Is there anything else I can help you with?"
+      ]
+    },
+    {"tag": "Common cold",
+      "patterns": [
+        "what is the common cold?", 
+        "what is the cold?",
+        "give me information about the common cold",  
+        "give me information about the cold",
+        "Tell me about the common cold",
+        "I want to know more about the common cold",
+        "I want to learn more about the common cold"
+      ],
+      "responses": ["Common cold is a bacterial inflammation of the nose and throat, the symptoms are: runny nose, cough, body ache, feeling unwell and sneezing. You can take panadol cold and flu. Is there anything else I can help you with?",
+      "Common cold is a common feeling of being unwell in the nose and throat, the symptoms are: runny nose, cough, body ache, feeling unwell and sneezing. You can take ibuprofen. Is there anything else I can help you with?"
+      ]
+    },
+    {"tag": "dengue",
+      "patterns": [
+        "What is dengue fever?",
+        "what is dengue?", 
+        "Give me information about dengue",
+        "Give me information about dengue fever", 
+        "tell me about the dengue fever", 
+        "tell me about the dengue fever", 
+        "what does dengue means?", 
+        "what does dengue fever mean?", 
+        "define dengue fever", 
+        "define dengue"
+      ],
+      "responses": ["Dengue fever is a virus spread by mosquitos that causes damaged and leaky blood vessels, which can result in death. Headache, Vomiting, Muscle, bone, or joint pain ,Rash (skin inflammation) Swollen glands are all signs for this disease. Seronegative will help you with this. Is there anything else I can help you with?"]
+    },
+    {"tag": "Norovirus",
+      "patterns": [
+        "What is Norovirus?",
+        "what is stomach flu?",
+        "Give me information about Norovirus",
+        "Give me information about stomach flu", 
+        "tell me about Norovirus", 
+        "tell me about the stomach flu", 
+        "what does Norovirus mean?", 
+        "what does stomach flu mean?", 
+        "define Norovirus",
+        "define stomach flu"
+      ],
+      "responses": ["Norovirus is a highly infectious virus that causes severe vomiting and diarrhea in its victims. Its symptoms include: Diarrhea, Vomiting, Nausea, Stomach pain, Muscle pain. It can be treated by Kao lectrolyte. Is there anything else I can help you with?",
+      "Norovirus is a highly contagious virus that infects people and causes extreme vomiting and diarrhea. Diarrhea, vomiting, nausea, stomach pain, and muscle pain are some of the symptoms. Oralyte may be used to treat it. Is there anything else I can help you with?"
+      ]
+    },
+    {"tag": "Diabetes2",
+      "patterns": [
+        "What is type 2 Diabetes?", 
+        "Give me information about type 2 Diabetes",
+        "tell me about type 2 Diabetes", 
+        "what does type 2 Diabetes mean?", 
+        "type 2 Diabetes", 
+        "define type 2 Diabetes"
+      ],
+      "responses": ["Diabetes 2: Using sugar (glucose) as a fuel impairs the body's ability to control and use it. The signs are: Weight loss, Fatigue, Blurred vision, Frequent urination. Increased thirst and the treatment are Metformin. Is there anything else I can help you with?",
+      "Diabetes 2: The body's ability to control and use sugar (glucose) is impaired when it is used as a fuel. Weakness, fatigue, and weight loss are some of the warning signs. Frequent urination, blurred vision Thirst increases. Its treatment is Insulin. Is there anything else I can help you with?"
+      ]
+    },
+    {"tag": "CKD",
+      "patterns": [
+        "What is chronic kidney disease?",
+        "what is CKD?", 
+        "Give me information about chronic kidney disease",
+        "Give me information about CKD", 
+        "tell me about chronic kidney disease", 
+        "tell me about the CKD", 
+        "what does chronic kidney disease mean?", 
+        "what does CKD mean?", 
+        "define chronic kidney disease", 
+        "define CKD"
+      ],
+      "responses": ["Chronic kidney disease (CKD): This damage causes waste to build up in your body, which can lead to other health problems. Symptoms include weight loss and poor appetite, itchy skin, blood in your pee (urine), shortness of breath. Swollen ankles, feet, or hands. Its treatment is angiotensin-converting enzyme. Is there anything else I can help you with?",
+      "Chronic kidney disease (CKD): When your kidneys are damaged, waste builds up in your body, causing other health issues. Weight loss and a lack of appetite are common symptoms, as are itchy skin, blood in the urine, and shortness of breath. ankles, feet, or hands that are swollen. It can be treated by: Statins. Is there anything else I can help you with?"
+      ]
+    }
+  ]
+}
